@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About - ResumeAI</title>
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='style.css') }}"
+    />
+  </head>
+  <body>
+    <header class="navbar">
+      <div class="brand">
+        <div class="logo-icon">✦</div>
+        <div class="brand-text">
+          <h1>ResumeAI</h1>
+          <p>AI-Powered Candidate Screening</p>
+        </div>
+      </div>
+
+      <nav>
+        <a href="/">Home</a>
+        <a href="/about">About</a>
+      </nav>
+    </header>
+
+    <main class="dashboard">
+      <div class="page-title">
+        <h2>About This Project</h2>
+        <p>Minor Project Overview – AI Resume Screening System</p>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-card">
+          <h3>Project Overview</h3>
+          <p>
+            The AI Resume Screening System is a web-based application developed
+            to automate the process of resume shortlisting. It compares uploaded
+            resumes with a job description and ranks candidates based on
+            relevance and skill match.
+          </p>
+        </div>
+
+        <div class="about-card">
+          <h3>Objectives</h3>
+          <ul>
+            <li>To reduce manual effort in resume screening.</li>
+            <li>To rank candidates using NLP and machine learning concepts.</li>
+            <li>To provide an easy-to-use recruiter dashboard.</li>
+            <li>To generate downloadable shortlist reports.</li>
+          </ul>
+        </div>
+
+        <div class="about-card">
+          <h3>Key Features</h3>
+          <ul>
+            <li>Upload multiple resumes in PDF format</li>
+            <li>Enter job description for comparison</li>
+            <li>Automatic resume ranking and score generation</li>
+            <li>Skill extraction from candidate resumes</li>
+            <li>Graphical candidate score visualization</li>
+            <li>Downloadable shortlist report</li>
+          </ul>
+        </div>
+
+        <div class="about-card">
+          <h3>Technology Stack</h3>
+          <ul>
+            <li><strong>Frontend:</strong> HTML, CSS</li>
+            <li><strong>Backend:</strong> Python Flask</li>
+            <li><strong>ML/NLP:</strong> TF-IDF, Cosine Similarity</li>
+            <li>
+              <strong>Libraries:</strong> scikit-learn, matplotlib, pandas,
+              PyPDF2
+            </li>
+          </ul>
+        </div>
+
+        <div class="about-card">
+          <h3>Working Principle</h3>
+          <p>
+            The system extracts text from PDF resumes, converts both the job
+            description and resumes into numerical vectors using TF-IDF, and
+            then calculates similarity using cosine similarity. Candidates are
+            ranked based on the generated score.
+          </p>
+        </div>
+
+        <div class="about-card">
+          <h3>Future Scope</h3>
+          <ul>
+            <li>Advanced NLP-based skill extraction</li>
+            <li>Database integration for candidate history</li>
+            <li>Recruiter login system</li>
+            <li>Resume classification using ML models</li>
+            <li>ATS compatibility analysis</li>
+          </ul>
+        </div>
+
+        <div class="about-card full-width">
+          <h3>Project Contributors</h3>
+          <p>This project <strong>ResumeAI</strong> is developed by:</p>
+
+          <ul>
+            <li><strong>Vaibhav Sharma</strong> – MCA 1B</li>
+            <li><strong>Joy Madan</strong> – MCA 1B</li>
+          </ul>
+
+          <p style="margin-top: 10px; color: #94a3b8">
+            Submitted as Minor Project for MCA.
+          </p>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

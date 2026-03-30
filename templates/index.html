@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI Resume Screening System</title>
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='style.css') }}"
+    />
+  </head>
+  <body>
+    <header class="navbar">
+      <div class="brand">
+        <div class="logo-icon">✦</div>
+        <div class="brand-text">
+          <h1>ResumeAI</h1>
+          <p>AI-Powered Candidate Screening</p>
+        </div>
+      </div>
+
+      <nav>
+        <a href="/">Home</a>
+        <a href="/about">About</a>
+      </nav>
+    </header>
+
+    <main class="dashboard">
+      <div class="page-title">
+        <h2>AI Resume Screening System</h2>
+        <p>Smart candidate ranking using NLP & Machine Learning</p>
+      </div>
+
+      <form
+        action="/analyze"
+        method="POST"
+        enctype="multipart/form-data"
+        class="dashboard-grid"
+      >
+        <!-- Upload Section -->
+        <div class="card">
+          <h2>Upload Resumes</h2>
+          <input type="file" name="resumes" multiple required />
+          <p class="upload-hint">Upload multiple PDF resumes for analysis</p>
+        </div>
+
+        <!-- Job Description Section -->
+        <div class="card">
+          <h2>Job Description</h2>
+          <textarea
+            name="job_description"
+            rows="8"
+            placeholder="Enter the job description here..."
+            required
+          ></textarea>
+          <button type="submit">Analyze Resumes</button>
+        </div>
+      </form>
+
+      <!-- How It Works Section -->
+      <section class="info-section">
+        <h2>How ResumeAI Works</h2>
+        <div class="feature-grid">
+          <div class="feature-card">
+            <div class="feature-icon">📄</div>
+            <h3>Upload Resumes</h3>
+            <p>Add multiple candidate resumes in PDF format.</p>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-icon">🧠</div>
+            <h3>NLP Analysis</h3>
+            <p>Compare resumes with the job description using AI techniques.</p>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-icon">📊</div>
+            <h3>Candidate Ranking</h3>
+            <p>
+              Get match scores, extracted skills, and ranking results instantly.
+            </p>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-icon">📥</div>
+            <h3>Download Report</h3>
+            <p>Export shortlisted candidate results as a CSV report.</p>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

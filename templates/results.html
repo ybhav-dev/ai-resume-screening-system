@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Results - ResumeAI</title>
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='style.css') }}"
+    />
+  </head>
+  <body>
+    <header class="navbar">
+      <div class="brand">
+        <div class="logo-icon">✦</div>
+        <div class="brand-text">
+          <h1>ResumeAI</h1>
+          <p>AI-Powered Candidate Screening</p>
+        </div>
+      </div>
+
+      <nav>
+        <a href="/">Home</a>
+        <a href="/about">About</a>
+      </nav>
+    </header>
+
+    <main class="dashboard">
+      <div class="page-title">
+        <h2>Candidate Analysis Dashboard</h2>
+        <p>AI-ranked candidates based on job description match</p>
+      </div>
+
+      <!-- Top Summary Row -->
+      <div class="results-grid">
+        <!-- Top Candidate Card -->
+        <div class="card summary-card">
+          <h2>⭐ Top Candidate</h2>
+          <div class="top-candidate-box">
+            <h3>{{ results[0].display_name }}</h3>
+            <p class="top-score">{{ results[0].score }}% Match</p>
+            <p class="badge-best">Best Match for Current JD</p>
+            <p class="top-skills">{{ results[0].skills }}</p>
+          </div>
+
+          <div class="download-wrap">
+            <a href="/download_report" class="download-btn">Download Report</a>
+          </div>
+        </div>
+
+        <!-- Graph Card -->
+        <div class="card graph-card">
+          <h2>📊 Matching Score Overview</h2>
+          <div class="graph-wrap">
+            <img
+              src="{{ url_for('static', filename=graph_url) }}"
+              alt="Candidate Score Graph"
+            />
+          </div>
+        </div>
+      </div>
+
+      <!-- Candidate Table -->
+      <div class="card table-card">
+        <h2>📋 Candidate Details</h2>
+        <table>
+          <tr>
+            <th>Rank</th>
+            <th>Candidate Resume</th>
+            <th>Match Score (%)</th>
+            <th>Skills</th>
+          </tr>
+
+          {% for result in results %}
+          <tr>
+            <td>{{ loop.index }}</td>
+            <td>{{ result.display_name }}</td>
+            <td>{{ result.score }}</td>
+            <td>{{ result.skills }}</td>
+          </tr>
+          {% endfor %}
+        </table>
+      </div>
+
+      <a href="/" class="back-btn">⬅ Back to Home</a>
+    </main>
+  </body>
+</html>
