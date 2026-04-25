@@ -1,31 +1,31 @@
 Rank,Candidate Resume,Match Score (%),Skills
-1,Neha_Gupta_0.pdf,15.09,C++
-2,Arjun_Nair_8.pdf,14.33,C++
-3,Ananya_Sharma_42.pdf,13.66,"Data Analysis, Excel, Power Bi"
-4,Neha_Iyer_27.pdf,13.0,"Data Analysis, Excel, Power Bi"
-5,Aarav_Gupta_28.pdf,0.0,No major skills found
-6,Aarav_Iyer_49.pdf,0.0,"Python, Sql, Machine Learning, Flask"
-7,Aman_Nair_41.pdf,0.0,"Java, Sql"
-8,Aman_Singh_29.pdf,0.0,No major skills found
-9,Ananya_Nair_16.pdf,0.0,Machine Learning
-10,Ananya_Singh_6.pdf,0.0,No major skills found
-11,Anika_Joshi_18.pdf,0.0,React
-12,Anika_Singh_24.pdf,0.0,"Python, Sql, Machine Learning, Flask"
-13,Arjun_Das_37.pdf,0.0,"Java, Sql"
-14,Diya_Das_3.pdf,0.0,Machine Learning
-15,Diya_Das_12.pdf,0.0,"Java, Sql"
-16,Diya_Sharma_43.pdf,0.0,"Java, Sql"
-17,Diya_Singh_40.pdf,0.0,"Python, Sql, Machine Learning, Flask"
-18,Ishita_Das_14.pdf,0.0,No major skills found
-19,Ishita_Joshi_2.pdf,0.0,Machine Learning
-20,Ishita_Joshi_44.pdf,0.0,Machine Learning
-21,Kabir_Gupta_30.pdf,0.0,No major skills found
-22,Karan_Sharma_38.pdf,0.0,No major skills found
-23,Karan_Singh_5.pdf,0.0,"Python, Sql, Machine Learning, Flask"
-24,Meera_Gupta_25.pdf,0.0,"Java, Sql"
-25,Megha_Das_13.pdf,0.0,No major skills found
-26,Megha_Iyer_10.pdf,0.0,No major skills found
-27,Megha_Kapoor_23.pdf,0.0,"Python, Sql, Machine Learning, Flask"
-28,Megha_Patel_17.pdf,0.0,No major skills found
-29,Megha_Verma_26.pdf,0.0,React
-30,Neha_Gupta_15.pdf,0.0,React
+1,Ananya_Sharma_42.pdf,31.63,"Data Analysis, C, Power Bi, Excel"
+2,Neha_Iyer_27.pdf,30.03,"Data Analysis, C, Power Bi, Excel"
+3,Neha_Gupta_0.pdf,10.94,"C, C++"
+4,Arjun_Nair_8.pdf,10.39,"C, C++"
+5,Diya_Singh_40.pdf,10.19,"Flask, Sql, Machine Learning, Python, C"
+6,Anika_Singh_24.pdf,10.1,"Flask, Sql, Machine Learning, Python, C"
+7,Karan_Singh_5.pdf,10.06,"Flask, Sql, Machine Learning, Python, C"
+8,Aarav_Iyer_49.pdf,10.03,"Flask, Sql, Machine Learning, Python, C"
+9,Megha_Kapoor_23.pdf,10.0,"Flask, Sql, Machine Learning, Python, C"
+10,Diya_Das_3.pdf,3.84,"Scikit-Learn, Nlp, C, Machine Learning"
+11,Ishita_Joshi_44.pdf,3.72,"Scikit-Learn, Nlp, C, Machine Learning"
+12,Ananya_Nair_16.pdf,3.7,"Scikit-Learn, Nlp, C, Machine Learning"
+13,Ishita_Joshi_2.pdf,3.7,"Scikit-Learn, Nlp, C, Machine Learning"
+14,Megha_Iyer_10.pdf,1.07,"Linux, C"
+15,Diya_Das_12.pdf,1.0,"Java, C, Sql, Mysql"
+16,Megha_Patel_17.pdf,1.0,"Linux, C"
+17,Diya_Sharma_43.pdf,0.99,"Java, C, Sql, Mysql"
+18,Kabir_Gupta_30.pdf,0.99,"Linux, C"
+19,Arjun_Das_37.pdf,0.98,"Java, C, Sql, Mysql"
+20,Ishita_Das_14.pdf,0.98,"Aws, C, Docker"
+21,Karan_Sharma_38.pdf,0.98,"Linux, C"
+22,Meera_Gupta_25.pdf,0.98,"Java, C, Sql, Mysql"
+23,Aarav_Gupta_28.pdf,0.97,C
+24,Aman_Singh_29.pdf,0.97,C
+25,Aman_Nair_41.pdf,0.96,"Java, C, Sql, Mysql"
+26,Neha_Gupta_15.pdf,0.96,"C, React, Mongodb, Node"
+27,Anika_Joshi_18.pdf,0.95,"C, React, Mongodb, Node"
+28,Megha_Verma_26.pdf,0.94,"C, React, Mongodb, Node"
+29,Megha_Das_13.pdf,0.9,C
+30,Ananya_Singh_6.pdf,0.88,C
